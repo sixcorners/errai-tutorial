@@ -7,11 +7,6 @@
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
 
-  <servlet-mapping>
-    <servlet-name>javax.ws.rs.core.Application</servlet-name>
-    <url-pattern>/rest/*</url-pattern>
-  </servlet-mapping>
-
   <servlet>
     <servlet-name>ErraiServlet</servlet-name>
     <servlet-class>org.jboss.errai.bus.server.servlet.DefaultBlockingServlet</servlet-class>
