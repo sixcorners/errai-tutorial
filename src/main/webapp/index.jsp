@@ -40,7 +40,6 @@
 <body>
   <div id="rootPanel" class="container"></div>
 
-  <iframe src="javascript:''" id="__gwt_historyFrame" style="width: 0; height: 0; border: 0"></iframe>
   <script src="js/jquery.js"></script>
   <script src="<%=contextPath%>/js/bootstrap.min.js"></script>
 </body>
