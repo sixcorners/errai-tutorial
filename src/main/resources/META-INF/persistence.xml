@@ -5,7 +5,7 @@
              version="2.1">
   <persistence-unit name="forge-default" transaction-type="JTA">
     <description>Forge Persistence Unit</description>
-    <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
+    <jta-data-source>java:comp/DefaultDataSource</jta-data-source>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
